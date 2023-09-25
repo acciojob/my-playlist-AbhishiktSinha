@@ -42,6 +42,9 @@ h1, h2{
 .player_one, .player_two{
 	width: 90%;
 	margin: 20px auto;
+	background-color: white;
+	padding: 2px;
+	border-radius: 2px;
 }
 .player_one > video{
 	width: 100%;
