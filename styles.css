@@ -1,1 +1,52 @@
 /*  your css code here. If applicable */
+*{
+
+	font-family: Arial;
+}
+
+body{
+	background-color: rgb(204, 204, 204);
+}
+
+h1, h2{
+	width: 100%;
+	text-align: center;
+}
+
+#playlist_div{
+	margin: auto 20px;
+	border: 2px solid black;
+	border-radius: 10px;
+	background-color: rgb(255, 255, 255);
+}
+
+#playlist_list{
+	padding: 10px;
+	list-style-type: none;
+	list-style-position: outside;
+}
+
+#playlist_list > li > a{
+	text-decoration: none;
+	color: black;
+}
+
+#audio_video_div{
+	background-color: white;
+	width: 90%;
+	margin: auto auto;
+	border: 2px solid black;
+	border-radius: 8px;
+}
+
+.player_one, .player_two{
+	width: 90%;
+	margin: 20px auto;
+}
+.player_one > video{
+	width: 100%;
+}
+
+.player_two > audio{
+	width: 100%;
+}
